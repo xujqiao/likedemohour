@@ -2,7 +2,8 @@
 class ItemAction extends Action{
 	public function _empty()
 	{
-		$this->index();
+		header("HTTP/1.0 404 Not Found");
+		$this->display("Public:404");
 	}
 
 	public function index()
