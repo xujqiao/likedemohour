@@ -9,7 +9,7 @@
             #login{
                 width: 500px;
                 height: 150px;
-                margin: 250px auto;
+                margin: 220px auto auto 50px;
                 padding: 5px;
             }
             label{
@@ -23,12 +23,14 @@
                 <div class="control-group">
                     <label class="control-label" for="inputEmail">邮箱</label>
                     <div class="controls">
-                        <input type="email" id="inputEmail" name="mail" placeholder="Email"></div>
+                        <input type="email" id="inputEmail" name="mail" placeholder="Email">
+                    </div>
                 </div>
                 <div class="control-group">
                     <label class="control-label" for="inputPassword">密码</label>
                     <div class="controls">
-                        <input type="password" id="inputPassword" name="pass" placeholder="Password"></div>
+                        <input type="password" id="inputPassword" name="pass" placeholder="Password">
+                    </div>
                 </div>
                 <div class="control-group">
                     <div class="controls">
