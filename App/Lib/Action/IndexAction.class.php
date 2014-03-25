@@ -2,6 +2,12 @@
 // 本类由系统自动生成，仅供测试用途
 class IndexAction extends Action {
 
+	public function _empty()
+	{
+		header("HTTP/1.0 404 Not Found");
+		$this->display("Public:404");
+	}
+
     public function getNumOfProjects(){
     	$id = $_GET['id'];
     	$id = intval($id) * 10;
@@ -320,6 +326,6 @@ class IndexAction extends Action {
 	}
 
 	public function test(){
-		$this->display();
+		echo __ROOT__;
 	}
 }
